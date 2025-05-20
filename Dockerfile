@@ -1,4 +1,4 @@
-FROM docker.io/n8nio/n8n:1.67.1-slim
+FROM n8nio/n8n:1.60.0-slim
 
 ENV N8N_BASIC_AUTH_ACTIVE=true \
     N8N_BASIC_AUTH_USER=admin \
